@@ -1,54 +1,43 @@
-2022-10-23 19:27:26,543 INFO com.finance.ProExchangeBot.ProExchangeBotApplication [main] Starting ProExchangeBotApplication using Java 11.0.11 on LAPTOP-P6V4PF38 with PID 25504 (D:\java\ProObmenBot\target\classes started by Admin in D:\java\ProObmenBot)
-2022-10-23 19:27:26,546 DEBUG com.finance.ProExchangeBot.ProExchangeBotApplication [main] Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-10-23 19:27:26,553 INFO com.finance.ProExchangeBot.ProExchangeBotApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-10-23 19:27:27,564 INFO com.finance.ProExchangeBot.ProExchangeBotApplication [main] Started ProExchangeBotApplication in 1.405 seconds (JVM running for 2.672)
-2022-10-23 19:27:32,674 INFO com.finance.ProExchangeBot.service.TelegramBot [Pro_obmen24_bot Telegram Executor] Replied to user ????????
-2022-10-23 19:27:33,536 INFO com.finance.ProExchangeBot.service.TelegramBot [Pro_obmen24_bot Telegram Executor] Replied to user ????????
-2022-10-23 19:27:34,661 INFO com.finance.ProExchangeBot.service.TelegramBot [Pro_obmen24_bot Telegram Executor] Replied to user ????????
-2022-10-23 19:30:15,139 INFO com.finance.ProExchangeBot.ProExchangeBotApplication [main] Starting ProExchangeBotApplication using Java 11.0.11 on LAPTOP-P6V4PF38 with PID 4724 (D:\java\ProObmenBot\target\classes started by Admin in D:\java\ProObmenBot)
-2022-10-23 19:30:15,140 DEBUG com.finance.ProExchangeBot.ProExchangeBotApplication [main] Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-10-23 19:30:15,141 INFO com.finance.ProExchangeBot.ProExchangeBotApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-10-23 19:30:16,507 INFO com.finance.ProExchangeBot.ProExchangeBotApplication [main] Started ProExchangeBotApplication in 1.647 seconds (JVM running for 2.857)
-2022-10-23 19:30:16,752 INFO com.finance.ProExchangeBot.service.TelegramBot [Pro_obmen24_bot Telegram Executor] Replied to user Владимир
-2022-10-23 19:30:16,876 INFO com.finance.ProExchangeBot.service.TelegramBot [Pro_obmen24_bot Telegram Executor] Replied to user Владимир
-2022-10-23 19:30:21,438 INFO com.finance.ProExchangeBot.service.TelegramBot [Pro_obmen24_bot Telegram Executor] Replied to user Владимир
-2022-10-23 19:30:23,185 INFO com.finance.ProExchangeBot.service.TelegramBot [Pro_obmen24_bot Telegram Executor] Replied to user Владимир
-2022-10-23 19:30:24,110 INFO com.finance.ProExchangeBot.service.TelegramBot [Pro_obmen24_bot Telegram Executor] Replied to user Владимир
-2022-10-23 19:52:53,903 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.finance.ProExchangeBot.ProObmenBotApplicationTests], using SpringBootContextLoader
-2022-10-23 19:52:53,909 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.finance.ProExchangeBot.ProObmenBotApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2022-10-23 19:52:53,909 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.finance.ProExchangeBot.ProObmenBotApplicationTests]: ProObmenBotApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2022-10-23 19:52:54,002 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.finance.ProExchangeBot.ProExchangeBotApplication for test class com.finance.ProExchangeBot.ProObmenBotApplicationTests
-2022-10-23 19:52:54,108 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2022-10-23 19:52:54,124 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@611df6e3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5f2f577, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6273c5a4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5d465e4b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@53e211ee, org.springframework.test.context.event.EventPublishingTestExecutionListener@41a90fa8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3d8bbcdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@52500920, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@117e0fe5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@18a3962d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78aea4b9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2a65bb85]
-2022-10-23 19:52:54,391 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2022-10-23 19:52:54,403 INFO com.finance.ProExchangeBot.ProObmenBotApplicationTests [main] Starting ProObmenBotApplicationTests using Java 11.0.11 on LAPTOP-P6V4PF38 with PID 7480 (started by Admin in D:\java\ProObmenBot)
-2022-10-23 19:52:54,403 DEBUG com.finance.ProExchangeBot.ProObmenBotApplicationTests [main] Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-10-23 19:52:54,404 INFO com.finance.ProExchangeBot.ProObmenBotApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2022-10-23 19:52:56,368 INFO com.finance.ProExchangeBot.ProObmenBotApplicationTests [main] Started ProObmenBotApplicationTests in 2.21 seconds (JVM running for 3.349)
-2022-10-23 20:04:09,626 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.finance.ProExchangeBot.ProObmenBotApplicationTests], using SpringBootContextLoader
-2022-10-23 20:04:09,632 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.finance.ProExchangeBot.ProObmenBotApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2022-10-23 20:04:09,633 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.finance.ProExchangeBot.ProObmenBotApplicationTests]: ProObmenBotApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2022-10-23 20:04:09,732 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.finance.ProExchangeBot.ProExchangeBotApplication for test class com.finance.ProExchangeBot.ProObmenBotApplicationTests
-2022-10-23 20:04:09,854 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2022-10-23 20:04:09,869 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@611df6e3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5f2f577, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6273c5a4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5d465e4b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@53e211ee, org.springframework.test.context.event.EventPublishingTestExecutionListener@41a90fa8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3d8bbcdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@52500920, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@117e0fe5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@18a3962d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78aea4b9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2a65bb85]
-2022-10-23 20:04:10,166 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2022-10-23 20:04:10,178 INFO com.finance.ProExchangeBot.ProObmenBotApplicationTests [main] Starting ProObmenBotApplicationTests using Java 11.0.11 on LAPTOP-P6V4PF38 with PID 16248 (started by Admin in D:\java\ProObmenBot)
-2022-10-23 20:04:10,178 DEBUG com.finance.ProExchangeBot.ProObmenBotApplicationTests [main] Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-10-23 20:04:10,179 INFO com.finance.ProExchangeBot.ProObmenBotApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2022-10-23 20:04:12,181 INFO com.finance.ProExchangeBot.ProObmenBotApplicationTests [main] Started ProObmenBotApplicationTests in 2.273 seconds (JVM running for 3.501)
+2022-10-26 03:00:05,906 ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession [Pro_obmen24_bot Telegram Connection] Connection reset
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1531)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:975)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+	Suppressed: java.net.SocketException: Connection reset by peer: socket write error
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
+		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:83)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 22 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1318)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:959)
+	... 18 common frames omitted
+2022-10-26 11:21:12,038 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h21m34s72ms231µs900ns).
