@@ -1,43 +1,15 @@
-2022-10-26 03:00:05,906 ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession [Pro_obmen24_bot Telegram Connection] Connection reset
-javax.net.ssl.SSLException: Connection reset
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
-	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1531)
-	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:975)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
-	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
-	Suppressed: java.net.SocketException: Connection reset by peer: socket write error
-		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
-		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
-		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
-		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:83)
-		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
-		... 22 common frames omitted
-Caused by: java.net.SocketException: Connection reset
-	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
-	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
-	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1318)
-	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:959)
-	... 18 common frames omitted
-2022-10-26 11:21:12,038 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h21m34s72ms231µs900ns).
+2022-12-14 20:14:42,125 INFO com.finance.ProExchangeBot.ProExchangeBotApplication [main] Starting ProExchangeBotApplication using Java 11.0.11 on LAPTOP-P6V4PF38 with PID 12016 (D:\java\ProObmenBot\target\classes started by Admin in D:\java\ProObmenBot)
+2022-12-14 20:14:42,145 DEBUG com.finance.ProExchangeBot.ProExchangeBotApplication [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-12-14 20:14:42,147 INFO com.finance.ProExchangeBot.ProExchangeBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-14 20:14:44,197 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-14 20:14:44,448 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 196 ms. Found 1 JPA repository interfaces.
+2022-12-14 20:14:45,407 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-14 20:14:45,565 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-14 20:14:45,920 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-14 20:14:46,194 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-14 20:14:46,779 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-14 20:14:46,811 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-12-14 20:14:48,523 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-14 20:14:48,557 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-14 20:14:51,381 INFO com.finance.ProExchangeBot.ProExchangeBotApplication [main] Started ProExchangeBotApplication in 9.725 seconds (JVM running for 12.929)
+2022-12-14 20:14:55,856 INFO com.finance.ProExchangeBot.service.TelegramBot [Pro_obmen24_bot Telegram Executor] Replied to user Volodymyr
